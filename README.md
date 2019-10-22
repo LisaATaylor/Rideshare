@@ -7,17 +7,19 @@ Since November 2018, rideshare providers (Lyft, Uber, etc) operating in Chicago 
 To prepare for the analyses and visualizations in this notebook, the Trips data was cleaned, aggregated, and enriched with climate and census data. Inferential statistical techniques were applied to test hypotheses regarding the data.  Supervised learning with random forest regression was applied to develop a simple rideshare demand prediction model.  Finally, a clustering analysis was performed to gain insight into rideshare usage patterns in Chicago.
 
 ### Data preparation, enrichment and visualization
-[Data Wrangling and Visualization](./Chicago Rideshare - Wrangling+Visualization.ipynb)
-[Chicago Rideshare Data Story](./Chicago Rideshare Data Story.ipynb)
+[Data Wrangling and Visualization](Chicago%20Rideshare%20-%20Wrangling+Visualization.ipynb)
+[Chicago Rideshare Data Story](Chicago Rideshare Data Story.ipynb)
 
 ### Statistical analysis
-[Data Preparation for Statistical Analysis](./Chicago Rideshare - Data Preparation for Statistical Analysis.ipynb)
-[Statistical Inference](./Chicago Rideshare Dataset - Statistical Inference.ipynb)
+[Data Preparation for Statistical Analysis](Chicago Rideshare - Data Preparation for Statistical Analysis.ipynb)
+[Statistical Inference](Chicago Rideshare Dataset - Statistical Inference.ipynb)
 
 ### Machine Learning
-[Application of Clustering To Better Understand the Rideshare Market](r/Chicago Rideshare Dataset - Clustering Analysis.ipynb)
-[Application of Random Forest Regression for Rideshare Demand Prediction](r/Chicago Rideshare Dataset - Demand Prediction.ipynb)
+[Application of Clustering To Better Understand the Rideshare Market](Chicago Rideshare Dataset - Clustering Analysis.ipynb)
+[Application of Random Forest Regression for Rideshare Demand Prediction](Chicago Rideshare Dataset - Demand Prediction.ipynb)
 
 ### Reporting
 [Progress Report] (./Capstone 1 Reports/Capstone 1 - Progress Report.pdf)
 [Progress Report Slides] (./Capstone 1 Reports/Capstone 1 - Progress Slides.pdf)
+
+[test](https://github.com/LisaATaylor/Rideshare/blob/master/Chicago%20Rideshare%20Dataset-%20Statistical%20Inference.ipynb)
