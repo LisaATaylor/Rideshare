@@ -17,7 +17,7 @@ To prepare for the analyses and visualizations in this notebook, the Trips data 
 
 ### Machine Learning
 [Application of Clustering To Better Understand the Rideshare Market](Chicago%20Rideshare%20Dataset%20-%20Clustering%20Analysis.ipynb)
-[Application of Random Forest Regression for Rideshare Demand Prediction](Chicago%20Rideshare%20Dataset%20-%20Demand Prediction.ipynb)
+[Application of Random Forest Regression for Rideshare Demand Prediction](Chicago%20Rideshare%20Dataset%20-%20Demand%20Prediction.ipynb)
 
 ### Reporting
 [Progress Report] (./Capstone%201%20Reports/Capstone%201%20-%20Progress%20Report.pdf)
