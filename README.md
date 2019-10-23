@@ -9,6 +9,7 @@ To prepare for the analyses and visualizations in this notebook, the Trips data 
 ### Data preparation, enrichment and visualization
 [Data Wrangling and Visualization](Chicago%20Rideshare%20-%20Wrangling+Visualization.ipynb)<br>
 [Chicago Rideshare Data Story](Chicago%20Rideshare%20Data%20Story.ipynb)
+[Python Data Prep Functions](RideshareDataPrep.py)
 
 ### Statistical analysis
 
