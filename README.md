@@ -7,23 +7,19 @@ Since November 2018, rideshare providers (Lyft, Uber, etc) operating in Chicago 
 To prepare for the analyses and visualizations in this notebook, the Trips data was cleaned, aggregated, and enriched with climate and census data. Inferential statistical techniques were applied to test hypotheses regarding the data.  Supervised learning with random forest regression was applied to develop a simple rideshare demand prediction model.  Finally, a clustering analysis was performed to gain insight into rideshare usage patterns in Chicago.
 
 ### Data preparation, enrichment and visualization
-[Data Wrangling and Visualization](Chicago%20Rideshare%20-%20Wrangling+Visualization.ipynb)
-
+[Data Wrangling and Visualization](Chicago%20Rideshare%20-%20Wrangling+Visualization.ipynb)\s\s
 [Chicago Rideshare Data Story](Chicago%20Rideshare%20Data%20Story.ipynb)
 
 ### Statistical analysis
 
-[Data Preparation for Statistical Analysis](Chicago%20RideshareDataset%20-%20Statistical%20Inference.ipynb)
-
+[Data Preparation for Statistical Analysis](Chicago%20RideshareDataset%20-%20Statistical%20Inference.ipynb)\s\s
 [Statistical Inference](Chicago%20Rideshare%20Dataset%20-%20Statistical%20Inference.ipynb)
 
 ### Machine Learning
-[Application of Clustering To Better Understand the Rideshare Market](Chicago%20Rideshare%20Dataset%20-%20Clustering%20Analysis.ipynb)
-
-[Application of Random Forest Regression for Rideshare Demand Prediction](Chicago%20Rideshare%20Dataset%20-%20Demand%20Prediction.ipynb)
+[Rideshare Market Analysis with KMeans Clustering](Chicago%20Rideshare%20Dataset%20-%20Clustering%20Analysis.ipynb)\s\s
+[Rideshare Demand Prediction with Random Forest Regression](Chicago%20Rideshare%20Dataset%20-%20Demand%20Prediction.ipynb)
 
 ### Reporting
-[Progress Report](Capstone%201%20Reports/Capstone%201%20-%20Progress%20Report.pdf)
-
+[Progress Report](Capstone%201%20Reports/Capstone%201%20-%20Progress%20Report.pdf)\s\s
 [Progress Report Slides](Capstone%201%20Reports/Capstone%201%20-%20Progress%20Slides.pdf)
 
