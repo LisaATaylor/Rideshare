@@ -65,6 +65,7 @@ def load_census():
     avgincome=censdf.loc[censdf.MedIncome>0,'MedIncome'].mean()
     censdf['MedIncome']=censdf['MedIncome'].apply(lambda x: x if x>0 else avgincome)
     censdf.set_index('PUCensusTract',inplace=True)
+    #add in distance to downtown
     return censdf
 
 #censfile=os.path.join(datadir,'cens_data_wms.csv')
@@ -97,6 +98,22 @@ def get_bearing(pointA,pointB):
     if bearing<0:
         bearing=bearing+360
     return bearing
+
+from shapely import wkt
+def make_bearing_data():
+    #bearing is angle relative to downtown.  N=360, W=270, S=180, E=90
+    x=load_raw_rides_data(r'/Users/rtaylor/Desktop/Springboard/DataSets/Rideshare')
+    xy=clean_transform_raw_rides_data(x)
+    xyg=xy[['PUCensusTract','PU_Geo']].drop_duplicates()
+    xyg['geo']=xyg['PU_Geo'].apply(wkt.loads)
+    cc=xyg.loc[xyg.PUCensusTract=='17031839100','geo'].iloc[0]
+    xyg['bearing']=xyg['geo'].apply(lambda x: get_bearing(x,cc))
+    xyg=xyg.set_index('PUCensusTract')
+    #gdf=gpd.GeoDataFrame(xyg,geometry='geo')
+    #cc=gdf.loc[gdf.PUCensusTract=='17031839100','geo'].iloc[0]#coords of city center
+    #gdf['bearing']=gdf['geo'].apply(lambda x: get_bearing(x,cc))
+    return xyg
+
 
 
 #%%
@@ -202,7 +219,7 @@ if export:
 
 #%%
 def get_hourly_data(): 
-    
+    #generates hourly dtaset with zero ride records for un-utilized tracts
     datadir=r'/Users/rtaylor/Desktop/Springboard/DataSets/Rideshare'
     rawdata=load_raw_rides_data(datadir)
     crdf=clean_transform_raw_rides_data(rawdata) 
@@ -260,6 +277,10 @@ def get_hourly_data():
     censdf=load_census()
     full_df_weather_census=full_df_weather.join(censdf)
     full_df_weather_census.drop(['namelsad10','name10','tractce10','statefp10','NAME'],axis=1,inplace=True)
+    #load "bearing"
+    bear=make_bearing_data()
+    full_df_weather_census=full_df_weather_census.join(bear)
+    full_df_weather_census.drop(['PU_Geo','geo'],axis=1,inplace=True)
     
     #Get "Side" from community area
     full_df_weather_census['Side']=lookup_CommunityAreaSides(full_df_weather_census['commarea']).values
