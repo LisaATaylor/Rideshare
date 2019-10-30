@@ -17,7 +17,7 @@ To prepare for the analyses and visualizations in this notebook, the Trips data 
 [Statistical Inference](Chicago%20Rideshare%20Dataset%20-%20Statistical%20Inference.ipynb)
 
 ### Machine Learning
-[Rideshare Market Analysis with KMeans Clustering](Chicago%20Rideshare%20Dataset%20-%20Clustering%20Analysis.ipynb)<br>
+[Rideshare Market Analysis with KMeans Clustering](https://nbviewer.jupyter.org/github/LisaATaylor/Rideshare/blob/master/Chicago%20Rideshare%20Dataset%20-%20Clustering%20Analysis.ipynb)<br>
 [Rideshare Demand Prediction with Random Forest Regression](Chicago%20Rideshare%20Dataset%20-%20Demand%20Prediction%20Final.ipynb)
 
 ### Reporting
