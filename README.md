@@ -18,7 +18,7 @@ To prepare for the analyses and visualizations in this notebook, the Trips data 
 
 ### Machine Learning
 [Rideshare Customer Segmentation  with KMeans Clustering](https://nbviewer.jupyter.org/github/LisaATaylor/Rideshare/blob/master/Chicago%20Rideshare%20Dataset%20-%20Clustering%20Analysis.ipynb)<br>
-[Rideshare Usage Prediction with Random Forest Regression](https://nbviewer.jupyter.org/github/LisaATaylor/Rideshare/blob/master/Chicago%20Rideshare%20Dataset%20-%20Demand%20Prediction%20Final.ipynb)
+[Rideshare Usage Prediction with Random Forest Regression](https://nbviewer.jupyter.org/github/LisaATaylor/Rideshare/blob/master/Chicago%20Rideshare%20Dataset%20-%20Usage%20Prediction.ipynb)
 
 ### Reporting
 [Final Report](Capstone%201%20Reports/Capstone%201%20-%20Final%20Report.pdf)<br>
