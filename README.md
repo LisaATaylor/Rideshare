@@ -13,8 +13,8 @@ To prepare for the analyses and visualizations in this notebook, the Trips data 
 
 ### Statistical analysis
 
-[Data Preparation for Statistical Analysis](Chicago%20RideshareDataset%20-%20Statistical%20Inference.ipynb)<br>
-[Statistical Inference](Chicago%20Rideshare%20Dataset%20-%20Statistical%20Inference.ipynb)
+[Application of Inferential Statistics](Chicago%20RideshareDataset%20-%20Statistical%20Inference.ipynb)<br>
+
 
 ### Machine Learning
 [Rideshare Usage Prediction with Random Forest Regression](https://nbviewer.jupyter.org/github/LisaATaylor/Rideshare/blob/master/Chicago%20Rideshare%20Dataset%20-%20Usage%20Prediction.ipynb)<br>
