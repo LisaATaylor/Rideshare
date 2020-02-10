@@ -23,5 +23,5 @@ To prepare for the analyses and visualizations in this notebook, the Trips data 
 
 ### Reporting
 [Final Report](Capstone%201%20Reports/Capstone%201%20-%20Final%20Report.pdf)<br>
-[Final Presentation](Capstone%201%20Reports/Capstone%201%20-%20Slides%20Final.pdf)
+[Final Presentation](Capstone%201%20Reports/Capstone%201%20-%20Chicago%20Rideshare%20Walkthrough.pdf)
 
